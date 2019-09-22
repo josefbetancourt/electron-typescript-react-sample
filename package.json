@@ -1,5 +1,5 @@
 {
-  "name": "sabercosas",
+  "name": "my-app",
   "version": "0.1.0",
   "private": true,
   "author": {
@@ -9,7 +9,7 @@
   },
   "build": {
     "appId": "com.my-website.my-app",
-    "productName": "MyApp",
+    "productName": "my-app",
     "copyright": "Copyright © 2019 ${author}",
     "mac": {
       "category": "public.app-category.utilities"
@@ -65,6 +65,7 @@
     "@rescripts/rescript-env": "^0.0.10",
     "concurrently": "^4.1.2",
     "cross-env": "^6.0.0",
+    "electron": "^6.0.10",
     "electron-builder": "^21.2.0",
     "wait-on": "^3.3.0"
   },
